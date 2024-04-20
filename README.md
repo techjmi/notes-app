@@ -1,6 +1,71 @@
-# Getting Started with Create React App
+# Notes App Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple notes management application developed using ReactJS and CSS. It allows users to create, edit, and delete notes, as well as switch between light and dark modes. The application is designed to be responsive, providing a seamless experience across various screen sizes.
+
+## Features
+
+- **Create Note:** Users can easily create new notes by entering text in the provided textarea and clicking the "Save" button.
+- **Edit Note:** Existing notes can be edited by clicking the "Edit" button, making changes, and then saving the updated note.
+- **Delete Note:** Notes can be deleted by clicking the "Delete" button associated with each note.
+- **Dark/Light Mode:** The application supports both dark and light modes, allowing users to switch between them based on their preference.
+- **Responsive Design:** The application is designed to adapt to different screen sizes, providing a consistent user experience across devices.
+
+## Usage
+
+1. **Creating a Note:**
+   - Enter the desired text in the textarea provided.
+   - Click the "Save" button to create the note.
+
+2. **Editing a Note:**
+   - Click the "Edit" button associated with the note you wish to edit.
+   - Make changes to the note text in the textarea.
+   - Click the "Save" button to save the changes.
+
+3. **Deleting a Note:**
+   - Click the "Delete" button associated with the note you wish to delete.
+
+4. **Switching between Dark/Light Mode:**
+   - Click the toggle button or switch provided to toggle between dark and light modes.
+
+## Technologies Used
+
+- **ReactJS:** Used for building the user interface and managing state.
+- **CSS:** Used for styling the application and implementing responsive design.
+- **LocalStorage:** Used to store notes locally in the browser for persistence across sessions.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd notes-app
+   ```
+
+3. Install the dependencies:
+
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   npm start
+   ```
+
+5. Open your web browser and visit `http://localhost:3000` to view the application.
+
+## Credits
+
+This project was created by [Md Shamim Akhter](https://musical-mooncake-8fc409.netlify.app/).
 
 ## Available Scripts
 
