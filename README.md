@@ -40,7 +40,7 @@ To run the project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```
-   git clone <repository-url>
+   git clone https://github.com/techjmi/notes-app.git
    ```
 
 2. Navigate to the project directory:
